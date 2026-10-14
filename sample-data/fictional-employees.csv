@@ -1,0 +1,18 @@
+
+FirstName,LastName,Department,JobTitle,SecurityGroup
+Bob,Anderson,IT,IT Support Specialist,SG-IT-Users
+Linda,Carmicheal,IT,IT Business Analyst,SG-IT-Users
+Dale,Ernheart,IT,IT Security Analyst,SG-IT-Users
+Tom,Thomas,IT,Product Specialist,SG-IT-Users
+Susan,Mitchell,Finance,Financial Analyst,SG-Finance-Users
+Margret,Williams,Finance,Payroll Specialist,SG-Finance-Users
+Louis,Burger,Finance,Tax Specialist,SG-Finance-Users
+Ashton,Hine,Finance,Audit Compliance,SG-Finance-Users
+Nancy,Wilson,HR,HR Specialist,SG-HR-Users
+Nancy,Grace,HR,Leaves Coordinator,SG-HR-Users
+David,Smolder,HR,People Leader,SG-HR-Users
+Jessica,Angel,HR,Benefits Specialist,SG-HR-Users
+Brandon,Scott,Operations,Operations Analyst,SG-Operations-Users
+Andy,Navy,Operations,Product Managers,SG-Operations-Users
+Tim,School,Operations,Security Coordinator,SG-Operations-Users
+Sam,Donald,Operations,Lead Operator,SG-Operations-Users
