@@ -15,6 +15,8 @@
 3. Administrative privileges require separate approval and must not be granted through standard employee groups.
 4. Departing employees must have their accounts disabled and access revoked promptly according to the termination process.
 
+## Sample Group Memberships
+
 SG-IT-Users
 
   Bob
