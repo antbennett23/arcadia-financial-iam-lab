@@ -16,3 +16,11 @@ HR initiates termination → sign-in blocked → sessions revoked → access rem
 | Joiner | New Finance employee | Create account, assign Finance group, require MFA |
 | Mover | Susan transfers from Finance to HR | Remove Finance access, assign HR access |
 | Leaver | IT employee resigns | Block sign-in, revoke sessions, remove access |
+
+## Workflow Verification
+
+| Scenario | Responsible team | Verification |
+|---|---|---|
+| Joiner | HR + IAM | Account exists, correct groups assigned, MFA registered |
+| Mover | HR + IAM | Previous access removed, new access approved |
+| Leaver | HR + IAM | Sign-in blocked, sessions revoked, access removed |
