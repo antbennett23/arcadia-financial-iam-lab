@@ -1,4 +1,20 @@
 SG-IT-Users
+  Bob
+  Linda
+  Dale
+  Tom
 SG-Finance-Users
+  Susan
+  Margret
+  Louis
+  Ashton
 SG-HR-Users
+  Nancy
+  Jasmine
+  David
+  Jessica
 SG-Operations-Users
+  Brandon
+  Andy
+  Tim
+  Sam
