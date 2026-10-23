@@ -22,8 +22,11 @@ Financial institutions must manage employee access consistently, prevent excessi
 - GitHub
 
 ## Status
-Phase 1: Planning and identity architecture design. No live environment has been deployed yet.
+**Phase 1 — Complete:** Identity architecture and joiner-mover-leaver workflow design.
 
+**Phase 2 — Complete:** Microsoft Entra ID lab deployment, test identities, security groups, and manual lifecycle testing.
+
+**Phase 3 — In Progress:** Microsoft Graph PowerShell automation. Read-only identity reconciliation completed and validated; controlled user provisioning is next.
 ## Microsoft Entra ID — Automated Identity Reconciliation
 
 ### Overview
