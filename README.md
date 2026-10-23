@@ -23,3 +23,40 @@ Financial institutions must manage employee access consistently, prevent excessi
 
 ## Status
 Phase 1: Planning and identity architecture design. No live environment has been deployed yet.
+
+## Microsoft Entra ID — Automated Identity Reconciliation
+
+### Overview
+Developed a read-only PowerShell automation workflow using Microsoft Graph to compare fictional HR employee records against identities in Microsoft Entra ID.
+
+### Workflow
+1. Authenticate to Microsoft Graph and validate the target tenant.
+2. Retrieve existing Entra ID users and security groups.
+3. Import and validate a fictional employee CSV.
+4. Compare employee records against directory identities.
+5. Identify missing accounts, department mismatches, and disabled identities.
+6. Export an onboarding reconciliation report for review.
+
+### Lab Results
+
+| Reconciliation Status | Count |
+|---|---:|
+| Existing accounts — No action | 2 |
+| Not found — Onboarding review | 12 |
+| Department mismatch — Review | 1 |
+| Disabled — Do not reactivate | 1 |
+| **Total employees** | **16** |
+
+### Security Considerations
+- Read-only execution prevents unintended identity changes.
+- Tenant and permission checks validate the execution environment.
+- Disabled accounts are flagged rather than automatically reactivated.
+- Department discrepancies require review before access changes.
+- Display-name matching is used for this introductory lab; production implementations should use unique employee identifiers.
+
+### Portfolio Artifacts
+- `scripts/New-ArcadiaUser.ps1` — Identity validation and reconciliation script.
+- `reports/onboarding-preview.csv` — Sample reconciliation output.
+- `sample-data/fictional-employees.csv` — Fictional HR source records.
+
+**Next phase:** Implement controlled employee provisioning with duplicate prevention, group assignment validation, and dry-run support.
